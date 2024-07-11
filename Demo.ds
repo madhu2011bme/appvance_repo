@@ -1,11 +1,506 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
-<fallback useFallback='true'/>
-<shadowDOM useShadowDOM='true'/>
-<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='' value='' selected='true'/>
-</dialect>
-</step>
-</testcase>
+  <testcase name='' description='script generated from Web Designer' author='Madhubala_Ravi_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='158f520a-a831-45fd-abb0-14c71dd969bc' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='clickXY' value='"57,48"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b1fc0302-c611-4644-969c-de8942922f38' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='image(0, _in(div("product_12")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_12&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Spree Bag")' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/35/small/spree_bag.jpeg?1527769337")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_12&apos;]/div/div[1]/a/img")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[12]/div/div/a/img&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_12&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='image({&apos;src&apos;:&apos;/spree/products/35/small/spree_bag.jpeg?1527769337&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Spree Bag"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9a8984af-ccd7-4236-8568-98a88d05ed28' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("btn btn-success[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("button")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Add To Cart")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='clickXY' value='"49,38"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0c529a23-687c-47f7-b7c1-992057159425' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='image(0, _in(div("product_4")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_4&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Ruby on Rails Jr. Spaghetti")' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/26/small/ror_jr_spaghetti.jpeg?1527769328")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_4&apos;]/div/div[1]/a/img")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[4]/div/div/a/img&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_4&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='image({&apos;src&apos;:&apos;/spree/products/26/small/ror_jr_spaghetti.jpeg?1527769328&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Jr. Spaghetti"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ed5f6931-5304-400b-8a15-bff0790f92ac' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='numberbox("quantity")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='numberbox("quantity")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;quantity&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;quantity&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='numberbox({&apos;min&apos;:&apos;1&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; input[class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#quantity&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='697ac08b-86cf-49b0-9b35-390af02b9a27' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("btn btn-success[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("button")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Add To Cart")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='18a03f46-cf2a-4a87-91ed-fd76f59718b3' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='submit(1, _in(form("update-cart")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='submit(1, _in(form({&apos;id&apos;:&apos;update-cart&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="checkout-link"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("btn btn-lg btn-success")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("checkout-link")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("checkout")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Checkout")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;checkout-link&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div/form/div/div[2]/div/button[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout-link&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="links col-md-3 navbar-form pull-right text-right"] &gt; div[class="form-group"] &gt; button[class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#checkout-link&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"madhu2011bme@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4372d9d3-7689-481a-ba4d-82114eea0462' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_email"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='emailbox("order_email")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='emailbox("order[email]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_email&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control title"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div[2]/form/p/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_email&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="form-control title"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_email&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='61c797d0-ccf2-4d06-8f10-acda6b5091dc' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success[1]")' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("commit[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Continue")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//form[@id=&apos;checkout_form_registration&apos;]/p[2]/input")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div[2]/form/p[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout_form_registration&apos;)/p[2]/input[@class=&apos;btn btn-lg btn-success btn-block&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;data-disable-with&apos;:&apos;Continue&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Continue"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='22f382f2-71d8-4138-9f16-8931c7dd27cf' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='submit("btn btn-lg btn-success")' selected='true' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="commit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("commit")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Save and Continue")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//form[@id=&apos;checkout_form_address&apos;]/div[3]/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[3]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout_form_address&apos;)/div[@class=&apos;well text-right form-buttons&apos;]/input[@class=&apos;btn btn-lg btn-success&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;data-disable-with&apos;:&apos;Save and Continue&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-9"] &gt; form[class="edit_order"] &gt; div[class="well text-right form-buttons"] &gt; input[class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#checkout_form_address &gt; .well.text-right.form-buttons &gt; .btn.btn-lg.btn-success&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="commit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Save and Continue"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"Madhu"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4193a318-abec-4296-9107-28ea7ba03a17' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(paragraph("bfirstname")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;bfirstname&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_firstname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][firstname]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("order_bill_address_attributes_firstname")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("order[bill_address_attributes][firstname]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_firstname&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_firstname&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="panel panel-default"] &gt; div[class="panel-body"] &gt; div[class="inner"] &gt; p[class="form-group"] &gt; input[class="form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_firstname&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][firstname]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='67dc96de-1e9c-4b9f-acf3-2ff73d7246bc' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='paragraph(1, _in(div("billing")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='paragraph(1, _in(div({&apos;id&apos;:&apos;billing&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="blastname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='paragraph("form-group[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='paragraph("blastname")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='paragraph("Last Name*")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//p[@id=&apos;blastname&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;blastname&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#blastname&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"R"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a9216c72-87cf-4e78-bec4-6f4c4bcc3114' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(paragraph("blastname")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;blastname&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_lastname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][lastname]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("order_bill_address_attributes_lastname")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("order[bill_address_attributes][lastname]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_lastname&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_lastname&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_lastname&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][lastname]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc0cbf34-413a-427a-a64f-844d7734302b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='paragraph(2, _in(div("billing")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='paragraph(2, _in(div({&apos;id&apos;:&apos;billing&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="baddress1"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='paragraph("form-group[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='paragraph("baddress1")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='paragraph("Street Address*")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//p[@id=&apos;baddress1&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[3]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;baddress1&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#baddress1&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"&apos;sddfioof"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='97109eeb-1035-481f-9cf2-4490ea185d76' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(paragraph("baddress1")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;baddress1&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_address1"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control required")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][address1]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("order_bill_address_attributes_address1")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("order[bill_address_attributes][address1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_address1&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control required"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[3]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_address1&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="panel panel-default"] &gt; div[class="panel-body"] &gt; div[class="inner"] &gt; p[class="form-group"] &gt; input[class="form-control required"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_address1&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][address1]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cf7de62a-5eff-4b45-9231-9e7cb6ca6c2b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='paragraph(3, _in(div("billing")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='paragraph(3, _in(div({&apos;id&apos;:&apos;billing&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="baddress2"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='paragraph("form-group[3]")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='paragraph("baddress2")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='paragraph("Street Address (cont&apos;d)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//p[@id=&apos;baddress2&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[4]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;baddress2&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#baddress2&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"twt3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c8da90f5-ac9f-49b4-98d4-85df2cbdbe58' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(paragraph("baddress2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;baddress2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_address2"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][address2]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("order_bill_address_attributes_address2")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("order[bill_address_attributes][address2]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_address2&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[4]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_address2&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_address2&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][address2]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a90167bc-34bb-48bc-ade3-57d27ffc4ca1' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='paragraph(4, _in(div("billing")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='paragraph(4, _in(div({&apos;id&apos;:&apos;billing&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="bcity"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='paragraph("form-group[4]")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='paragraph("bcity")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='paragraph("City*")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//p[@id=&apos;bcity&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[5]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;bcity&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#bcity&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"31rw"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='654c34b6-4d63-42d1-817a-261111563af4' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(paragraph("bcity")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;bcity&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_city"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control[3]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][city]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("order_bill_address_attributes_city")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("order[bill_address_attributes][city]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_city&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[5]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_city&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_city&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][city]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setSelected' value='"Delaware"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f5b4c4f0-29b8-4d6f-ac1b-98ec59fe0074' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='select(0, _in(paragraph("bstate")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='select(0, _in(paragraph({&apos;id&apos;:&apos;bstate&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_state_id"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='select("form-control required")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][state_id]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='select("order_bill_address_attributes_state_id")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='select("order[bill_address_attributes][state_id]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//select[@id=&apos;order_bill_address_attributes_state_id&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[7]/select&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_state_id&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="panel panel-default"] &gt; div[class="panel-body"] &gt; div[class="inner"] &gt; p[class="form-group"] &gt; select[class="form-control required"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_state_id&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;select[name="order[bill_address_attributes][state_id]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"88888"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='55096460-1cfe-45ed-8817-5d12b1180237' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(paragraph("bzipcode")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;bzipcode&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_zipcode"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control[4]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][zipcode]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("order_bill_address_attributes_zipcode")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("order[bill_address_attributes][zipcode]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_zipcode&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[8]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_zipcode&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_zipcode&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][zipcode]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4b9add98-4693-4de7-87a7-dd3b3ed94e6a' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='paragraph(8, _in(div("billing")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='paragraph(8, _in(div({&apos;id&apos;:&apos;billing&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="bphone"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='paragraph("form-group[8]")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='paragraph("bphone")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='paragraph("Phone*")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//p[@id=&apos;bphone&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[9]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;bphone&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#bphone&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"99898989"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='05a485fe-6980-45be-b351-069c34064e4c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='telephonebox(0, _in(paragraph("bphone")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='telephonebox(0, _in(paragraph({&apos;id&apos;:&apos;bphone&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_bill_address_attributes_phone"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='telephonebox("form-control")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[bill_address_attributes][phone]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='telephonebox("order_bill_address_attributes_phone")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='telephonebox("order[bill_address_attributes][phone]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;order_bill_address_attributes_phone&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/div/div/div[2]/div/p[9]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;order_bill_address_attributes_phone&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='telephonebox({&apos;type&apos;:&apos;tel&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#order_bill_address_attributes_phone&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][phone]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7378894b-d295-434e-8b43-4fa2bfb5eb20' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='submit("btn btn-lg btn-success")' selected='true' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="commit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("commit")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Save and Continue")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//form[@id=&apos;checkout_form_address&apos;]/div[3]/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[3]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout_form_address&apos;)/div[@class=&apos;well text-right form-buttons&apos;]/input[@class=&apos;btn btn-lg btn-success&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;data-disable-with&apos;:&apos;Save and Continue&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-9"] &gt; form[class="edit_order"] &gt; div[class="well text-right form-buttons"] &gt; input[class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#checkout_form_address &gt; .well.text-right.form-buttons &gt; .btn.btn-lg.btn-success&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="commit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Save and Continue"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='navigateTo' value='"https://demosite.appvance.net/checkout/payment"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e510a058-9f88-4d87-9f37-0aea54a131ac' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='54525fb2-6dda-4376-9b80-c2d41aeae552' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(3, _in(list("checkout-step-payment")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(3, _in(list({&apos;id&apos;:&apos;checkout-step-payment&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Complete")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//ul[@id=&apos;checkout-step-payment&apos;]/li[4]/a")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Complete"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div/div[2]/ul/li[4]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout-step-payment&apos;)/li[@class=&apos;next last&apos;]/a[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='80c72f65-173e-484c-a0a6-7b26c0199668' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='paragraph(1, _in(listItem("payment_method_2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='paragraph(1, _in(listItem({&apos;id&apos;:&apos;payment_method_2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='paragraph("field[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//li[@id=&apos;payment_method_2&apos;]/fieldset/div/p[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div/div[2]/ul[2]/li/fieldset/div/p[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='paragraph({&apos;data-hook&apos;:&apos;card_number&apos;})' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"9038483270509409"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8a3217f9-cc8a-4d55-b214-2403684ab88e' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(1, _in(listItem("payment_method_2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(1, _in(listItem({&apos;id&apos;:&apos;payment_method_2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="card_number"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("cardNumber form-control required unknown")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="payment_source[2][number]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("card_number")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("payment_source[2][number]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;card_number&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control required cardNumber unknown"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div/div[2]/ul[2]/li/fieldset/div/p[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;card_number&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;autocomplete&apos;:&apos;off&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="well clearfix"] &gt; p[class="field"] &gt; input[class="form-control required cardNumber unknown"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#card_number&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="payment_source[2][number]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value=""]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='clickXY' value='"73,18"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bd8e5ef6-c3ae-425c-abb9-13bcce38530c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='div(2, _in(listItem("payment_method_2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='div(2, _in(listItem({&apos;id&apos;:&apos;payment_method_2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='div("col-md-8 field")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='div("Expiration*")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//li[@id=&apos;payment_method_2&apos;]/fieldset/div/div/div[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="col-md-8 field"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div/div[2]/ul[2]/li/fieldset/div/div/div&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;payment_method_2&apos;)/fieldset[1]/div[@class=&apos;well clearfix&apos;]/div[@class=&apos;row&apos;]/div[@class=&apos;col-md-8 field&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='div({&apos;data-hook&apos;:&apos;card_expiration&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="well clearfix"] &gt; div[class="row"] &gt; div[class="col-md-8 field"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.well.clearfix &gt; .row &gt; .col-md-8.field&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"12 / 26"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fac7c8b5-928b-43e0-a5e0-56b4411a1a1f' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(2, _in(listItem("payment_method_2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(2, _in(listItem({&apos;id&apos;:&apos;payment_method_2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="card_expiry"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("cardExpiry form-control required")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="payment_source[2][expiry]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("card_expiry")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("payment_source[2][expiry]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;card_expiry&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control required cardExpiry"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div/div[2]/ul[2]/li/fieldset/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;card_expiry&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;placeholder&apos;:&apos;MM / YY&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="well clearfix"] &gt; div[class="row"] &gt; div[class="col-md-8 field"] &gt; input[class="form-control required cardExpiry"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#card_expiry&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="payment_source[2][expiry]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='clickXY' value='"132,18"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='572e747f-e7af-4214-9c76-08e0e34ba9cf' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='div(3, _in(listItem("payment_method_2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='div(3, _in(listItem({&apos;id&apos;:&apos;payment_method_2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='div("col-md-4 field")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//li[@id=&apos;payment_method_2&apos;]/fieldset/div/div/div[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="col-md-4 field"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div/div[2]/ul[2]/li/fieldset/div/div/div[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;payment_method_2&apos;)/fieldset[1]/div[@class=&apos;well clearfix&apos;]/div[@class=&apos;row&apos;]/div[@class=&apos;col-md-4 field&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='div({&apos;data-hook&apos;:&apos;card_code&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="well clearfix"] &gt; div[class="row"] &gt; div[class="col-md-4 field"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.well.clearfix &gt; .row &gt; .col-md-4.field&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"2344"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dd7781b6-61f2-4030-ad99-5f6057f0b9a7' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(3, _in(listItem("payment_method_2")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(3, _in(listItem({&apos;id&apos;:&apos;payment_method_2&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="card_code"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("cardCode form-control required")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="payment_source[2][verification_value]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("card_code")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("payment_source[2][verification_value]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;card_code&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control required cardCode"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div/div[2]/ul[2]/li/fieldset/div/div/div[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;card_code&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;size&apos;:&apos;5&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="well clearfix"] &gt; div[class="row"] &gt; div[class="col-md-4 field"] &gt; input[class="form-control required cardCode"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#card_code&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="payment_source[2][verification_value]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='06d504f2-fc55-4e31-ae3c-9d259af37a01' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='submit("btn btn-lg btn-success primary")' selected='true' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="commit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("commit")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Save and Continue")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//form[@id=&apos;checkout_form_payment&apos;]/div[2]/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-lg btn-success primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout_form_payment&apos;)/div[@class=&apos;well text-right form-buttons&apos;]/input[@class=&apos;btn btn-lg btn-success primary&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;data-disable-with&apos;:&apos;Save and Continue&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-9"] &gt; form[class="edit_order"] &gt; div[class="well text-right form-buttons"] &gt; input[class="btn btn-lg btn-success primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#checkout_form_payment &gt; .well.text-right.form-buttons &gt; .btn.btn-lg.btn-success.primary&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="commit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Save and Continue"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+  </testcase>
